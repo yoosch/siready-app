@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @vite('resources/css/app.css')
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <x-navBar>
+        
+    </x-navBar>
+    <div class="flex">
+        <x-side-bar-mhs>
+
+        </x-side-bar-mhs>
+        
+        <div id="content" class=" bg-[#111827] py-7 px-16 z-30 min-h-screen w-full text-white">
+            <h1 class="font-semibold text-3xl pb-7 text-center">Transkrip Akademik</h1>
+            <div class="grid grid-cols-5 p-7 h-[60vh] font-semibold bg-[#1F2937] rounded-3xl text-center text-[#9CA3AF]">
+                <div class="space-y-4">
+                    <h1 class="text-white pb-2">No</h1>
+                    <h1>1</h1>
+                    <h1>2</h1>
+                    <h1>3</h1>
+                    <h1>4</h1>
+                    <h1>5</h1>
+                </div>
+                <div class="space-y-4"">
+                    <h1 class="text-white pb-2">Kode</h1>
+                    <h1>PAIK6101</h1>
+                    <h1>PAIK6102</h1>
+                    <h1>PAIK6103</h1>
+                    <h1>PAIK6104</h1>
+                    <h1>PAIK6105</h1>
+                </div>
+                <div class="space-y-4"">
+                    <h1 class="text-white pb-2">Mata Kuliah</h1>
+                    <h1>MATEMATIKA 1</h1>
+                    <h1>DASAR PEMROGRAMAN</h1>
+                    <h1>DASAR SISTEM</h1>
+                    <h1>LOGIKA INFORMATIKA</h1>
+                    <h1>STRUKTUR DISKRIT</h1>
+                </div>
+                <div class="space-y-4"">
+                    <h1 class="text-white pb-2">SKS</h1>
+                    <h1>2</h1>
+                    <h1>3</h1>
+                    <h1>3</h1>
+                    <h1>3</h1>
+                    <h1>4</h1>
+                </div>
+                <div class="space-y-4"">
+                    <h1 class="text-white pb-2">Nilai</h1>
+                    <h1>A</h1>
+                    <h1>A</h1>
+                    <h1>A</h1>
+                    <h1>A</h1>
+                    <h1>A</h1>
+                </div>
+            </div>
+            <div class="grid grid-cols-3 py-4">
+                <div class="bg-[#2AA6CD] p-6 rounded-3xl text-right mx-9">
+                    <h1 class="text-2xl font-bold">3.8</h1>
+                    <h1>IP Kumulatif</h1>
+                </div>
+                <div class="bg-[#3478C7] p-6 rounded-3xl text-right mx-9">
+                    <h1 class="text-2xl font-bold">86</h1>
+                    <h1>SKS Kumulatif</h1>
+                </div>
+                <div class="bg-[#C34444] p-6 rounded-3xl text-right mx-9 flex flex-col items-end">
+                    <img src="unduhPdf.png" class="mb-2" width="25" alt="">
+                    <h1>Unduh PDF</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
