@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite(['resources/css/app.css','resources/js/app.js', 'resources/js/darkmode.js'])
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Poppins:wght@200;400&display=swap"
+    rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -25,7 +27,7 @@
       {{-- end sidebar --}}
 
 
-      <div id="main-content" class="relative w-full h-full overflow-y-auto lg:pl-52">
+      <div id="main-content" class="relative font-poppins w-full h-full overflow-y-auto lg:pl-52">
 
         <div class = "text-gray-900 dark:text-gray-200">
           <h1 class="font-bold text-3xl mb-0 px-14 mt-6">Hai Mulyono👋</h1>

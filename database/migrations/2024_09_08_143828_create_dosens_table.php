@@ -11,11 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('subjects', function (Blueprint $table) {
-            $table->string('kodeMk')->unique();
-            $table->string('namaMk');
-            $table->integer('sks');
-            });
+        Schema::create('dosens', function (Blueprint $table) {
+            $table->string('nip', 16)->primary();
+            $table->string('nama', 50);
+            $table->timestamps(); // Optional, if you want to include created_at and updated_at fields
+        });
     }
 
     /**
@@ -23,6 +23,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('subjects');
+        Schema::dropIfExists('matakuliahs');
     }
 };

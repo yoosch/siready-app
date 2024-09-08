@@ -274,6 +274,9 @@ module.exports = {
       DEFAULT: '1',
     },
     fontFamily: {
+      'poppins': [
+        "'Poppins'", 'sans-serif'
+      ],
       'body': [
         'Inter', 
         'ui-sans-serif', 

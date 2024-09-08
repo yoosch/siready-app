@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Poppins:wght@200;400&display=swap"
+    rel="stylesheet">
     <title>Login</title>
 </head>
 
@@ -26,7 +28,7 @@
       {{-- end sidebar --}}
 
 
-      <div id="main-content" class="relative w-full h-full overflow-y-auto lg:mt-4 bg-gray-50 lg:ml-52 dark:bg-gray-900">
+      <div id="main-content" class="relative w-full h-full font-poppins overflow-y-auto lg:mt-4 bg-gray-50 lg:ml-52 dark:bg-gray-900">
         
         <div class="flex justify-between mx-14 my-8">
           <h1 class=" text-3xl font-semibold text-gray-900 dark:text-gray-200">Buat IRS</h1>

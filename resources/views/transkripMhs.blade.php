@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite(['resources/css/app.css','resources/js/app.js', 'resources/js/darkmode.js'])
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Poppins:wght@200;400&display=swap"
+    rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -28,9 +30,9 @@
         {{-- end sidebar --}}
   
   
-        <div id="main-content" class="relative w-full h-full mx-16 text-gray-900 dark:text-gray-200 overflow-y-auto lg:pl-52 dark:bg-gray-900">
+        <div id="main-content" class="relative w-full h-full font-poppins mx-16 text-gray-900 dark:text-gray-200 overflow-y-auto lg:pl-52 dark:bg-gray-900">
             <h1 class="font-semibold text-2xl pb-7 mt-8 text-center">Transkrip Akademik</h1>
-            <div class="grid grid-cols-5 p-7 h-[57vh] font-semibold text-xs bg-white dark:bg-[#1F2937] rounded-3xl text-center text-[#9CA3AF]">
+            <div class="grid grid-cols-5 p-7 h-[57vh] font-semibold text-sm bg-white dark:bg-[#1F2937] rounded-3xl text-center text-[#9CA3AF]">
                 <div class="space-y-4">
                     <h1 class="text-gray-900 dark:text-white pb-2">No</h1>
                     <h1>1</h1>
