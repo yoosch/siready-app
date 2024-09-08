@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Poppins:wght@200;400&display=swap"
+    rel="stylesheet">
     <title>Login</title>
 </head>
 
@@ -25,7 +27,7 @@
         </x-side-bar-mhs>
       {{-- end sidebar --}}
 
-      <div id="main-content" class="relative w-full h-full overflow-y-auto lg:mt-4 bg-gray-50 lg:ml-52 dark:bg-gray-900">
+      <div id="main-content" class="relative w-full h-full font-poppins overflow-y-auto lg:mt-4 bg-gray-50 lg:ml-52 dark:bg-gray-900">
         <h1 class="mx-14 my-8 text-3xl font-semibold text-gray-900 dark:text-gray-200">Isian Rencana Studi (IRS)</h1>
         <div class="mt-2 mx-14 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-800">
             @foreach ($data as $item)
@@ -33,7 +35,7 @@
                 <div class="flex items-center justify-between">
                     <div class="p-1">
                         <h3 class="text-lg font-medium text-gray-900 dark:text-gray-200">Semester {{ $item->semester }}</h3>
-                        <h4 class="font-light text-sm text-gray-900 dark:text-gray-200">2021/2022</h4>
+                        <h4 class="font-light text-sm text-gray-900 dark:text-gray-200">2021/2022 | {{ $item->sks }} SKS </h4>
                     </div>
                     <svg class="arrow-icon transition-transform duration-300 ease-in-out bi bi-arrow-down  cursor-pointer dark:fill-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" data-semester="{{ $item->semester }}">
                         <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite(['resources/css/app.css','resources/js/app.js', 'resources/js/darkmode.js'])
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Poppins:wght@200;400&display=swap"
+    rel="stylesheet">
     <title>Document</title>
 </head>
 <body class = "bg-gray-100 dark:bg-[#111827]">
@@ -25,7 +27,7 @@
          {{-- end sidebar --}}
    
    
-         <div id="main-content" class="relative w-full h-full overflow-y-auto text-gray-900 dark:text-gray-200  lg:ml-64">
+         <div id="main-content" class="relative w-full h-full font-poppins overflow-y-auto text-gray-900 dark:text-gray-200  lg:ml-64">
             <h1 class="font-semibold text-4xl mt-10 mb-4">Pilih Status Akademik</h1>
             <h1 class="text-[#9CA3AF]">Silahkan pilih status akademik untuk semester ini</h1>
             <div class="grid grid-cols-2 mt-16 mx-7 h-[60vh]">
