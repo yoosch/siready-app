@@ -4,25 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    @vite('resources/css/app.css')
+    @vite(['resources/css/app.css','resources/js/app.js', 'resources/js/darkmode.js'])
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 
-<body>
-    <x-navBar>
-        
-    </x-navBar>
-    <div class="flex">
-        <x-side-bar-mhs>
+<body class = "bg-gray-200 dark:bg-gray-900"> 
 
-        </x-side-bar-mhs>
-        
-        <div id="content" class=" bg-[#111827] py-7 px-16 z-30 min-h-screen w-full text-white">
-            <h1 class="font-semibold text-3xl pb-7 text-center">Transkrip Akademik</h1>
-            <div class="grid grid-cols-5 p-7 h-[60vh] font-semibold bg-[#1F2937] rounded-3xl text-center text-[#9CA3AF]">
+
+    {{-- navbar --}}
+      <x-navbar></x-navbar>
+      
+    {{-- endnavbar --}}
+  
+      <div class="flex pt-16 overflow-hidden">
+  
+        {{-- sidebar --}}
+  
+          <x-side-bar-mhs>
+              
+          </x-side-bar-mhs>
+  
+        {{-- end sidebar --}}
+  
+  
+        <div id="main-content" class="relative w-full h-full mx-16 text-gray-900 dark:text-gray-200 overflow-y-auto lg:pl-52 dark:bg-gray-900">
+            <h1 class="font-semibold text-2xl pb-7 mt-8 text-center">Transkrip Akademik</h1>
+            <div class="grid grid-cols-5 p-7 h-[57vh] font-semibold text-xs bg-white dark:bg-[#1F2937] rounded-3xl text-center text-[#9CA3AF]">
                 <div class="space-y-4">
-                    <h1 class="text-white pb-2">No</h1>
+                    <h1 class="text-gray-900 dark:text-white pb-2">No</h1>
                     <h1>1</h1>
                     <h1>2</h1>
                     <h1>3</h1>
@@ -30,7 +40,7 @@
                     <h1>5</h1>
                 </div>
                 <div class="space-y-4"">
-                    <h1 class="text-white pb-2">Kode</h1>
+                    <h1 class="text-gray-900 dark:text-white pb-2">Kode</h1>
                     <h1>PAIK6101</h1>
                     <h1>PAIK6102</h1>
                     <h1>PAIK6103</h1>
@@ -38,7 +48,7 @@
                     <h1>PAIK6105</h1>
                 </div>
                 <div class="space-y-4"">
-                    <h1 class="text-white pb-2">Mata Kuliah</h1>
+                    <h1 class="text-gray-900 dark:text-white pb-2">Mata Kuliah</h1>
                     <h1>MATEMATIKA 1</h1>
                     <h1>DASAR PEMROGRAMAN</h1>
                     <h1>DASAR SISTEM</h1>
@@ -46,7 +56,7 @@
                     <h1>STRUKTUR DISKRIT</h1>
                 </div>
                 <div class="space-y-4"">
-                    <h1 class="text-white pb-2">SKS</h1>
+                    <h1 class="text-gray-900 dark:text-white pb-2">SKS</h1>
                     <h1>2</h1>
                     <h1>3</h1>
                     <h1>3</h1>
@@ -54,7 +64,7 @@
                     <h1>4</h1>
                 </div>
                 <div class="space-y-4"">
-                    <h1 class="text-white pb-2">Nilai</h1>
+                    <h1 class="text-gray-900 dark:text-white pb-2">Nilai</h1>
                     <h1>A</h1>
                     <h1>A</h1>
                     <h1>A</h1>

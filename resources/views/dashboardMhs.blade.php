@@ -4,25 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    @vite('resources/css/app.css')
+    @vite(['resources/css/app.css','resources/js/app.js', 'resources/js/darkmode.js'])
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 
-<body>
-    <x-navBar>
-        
-    </x-navBar>
-    <div class="flex">
-        <x-side-bar-mhs>
+<body class = "bg-gray-200 dark:bg-[#111827]">
+    {{-- navbar --}}
+    <x-navbar></x-navbar>
+    
+  {{-- endnavbar --}}
 
+    <div class="flex pt-16 overflow-hidden">
+
+      {{-- sidebar --}}
+
+        <x-side-bar-mhs>
+            
         </x-side-bar-mhs>
-        <div id="content" class=" bg-[#111827] py-7 px-16 z-30 min-h-screen w-full text-white">
-            <h1 class="font-bold text-3xl mb-5">Hai Mulyono👋</h1>
-            <div class="bg-[#1F2937] p-4 rounded-3xl">
+      {{-- end sidebar --}}
+
+
+      <div id="main-content" class="relative w-full h-full overflow-y-auto lg:pl-52">
+
+        <div class = "text-gray-900 dark:text-gray-200">
+          <h1 class="font-bold text-3xl mb-0 px-14 mt-6">Hai Mulyono👋</h1>
+        
+          <div class="px-14 pt-3 pb-2">
+            <div class="p-10 bg-white border border-gray-200 rounded-3xl shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-800">
+              
                 <div class="grid grid-cols-3 pt-4 py-8">
                     <div class="bg-[#2ACD7F] p-6 rounded-2xl text-right mx-9">
-                        {{-- <img src="profile.png" class="fixed w-16 -ml-10 mt-10 opacity-40 overflow-hidden" alt=""> --}}
                         <h1 class="text-2xl font-bold">AKTIF</h1>
                         <h1>Status Mahasiswa</h1>
                     </div>
@@ -36,7 +48,7 @@
                     </div>
                 </div>
                 <h1 class="text-center"><strong>Pembimbing Akademik : </strong>H. Prabowo Subianto</h1>
-                <h1 class="text-center"><strong>NIP : </strong>2222222222</h1>
+                <h1 class="text-center"><strong>NIP : </strong>24060122110001</h1>
                 <div class="grid grid-cols-3 space-x-2 py-8 text-center font-semibold">
                     <div class="px-3">
                         <h1>Semester Akademik Sekarang</h1>
@@ -50,41 +62,52 @@
                         <h1>IP Semester</h1>
                         <h1 class="text-2xl">2.3</h1>
                     </div>
-                </div>
+                </div>    
             </div>
-            <div class="flex mt-5 space-x-6">
-                <div class="w-[70%] ">
-                    <h1 class="font-bold text-2xl mb-5">Today's Schedule</h1>
-                    <div class="grid grid-cols-3 bg-[#1F2937] p-4 rounded-3xl text-center text-[#9CA3AF]">
-                        <div>
-                            <h1 class="font-bold pt-1 pb-3">Subject</h1>
-                            <h1>Pengembangan Berbasis</h1>
-                            <h1>Proyek Perangkat Lunak</h1>
-                            <h1>Penambangan Data</h1>
-                        </div>
-                        <div>
-                            <h1 class="font-bold pt-1 pb-3">Room</h1>
-                            <h1>E101</h1>
-                            <h1>A303</h1>
-                            <h1>E102</h1>
-                        </div>
-                        <div>
-                            <h1 class="font-bold pt-1 pb-3">Time</h1>
-                            <h1>13.00-15.30</h1>
-                            <h1>15.30-18.00</h1>
-                            <h1>09.30-12.20</h1>
-                        </div>
+            
+          </div>
+
+          <div class="flex mt-5 space-x-6 px-14 pb-7 dark:bg-gray-900 text-gray-500 dark:text-[#9CA3AF]">
+            <div class="w-[70%]  ">
+                <h1 class="font-bold text-2xl mb-5 text-gray-900 dark:text-gray-200">Today's Schedule</h1>
+                <div class="grid grid-cols-3 bg-white border border-gray-200 rounded-3xl shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-800 p-4 text-center ">
+                    <div>
+                        <h1 class="font-bold pt-1 pb-3">Subject</h1>
+                        <h1>Pengembangan Berbasis</h1>
+                        <h1>Proyek Perangkat Lunak</h1>
+                        <h1>Penambangan Data</h1>
                     </div>
-                </div>
-                <div class="w-[30%] h-auto">
-                    <h1 class="font-bold text-2xl mb-5">Announcement</h1>
-                    <div class="bg-[#1F2937] p-4 rounded-3xl text-[#9CA3AF] h-auto mb-0">
-                        <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod harum quos alias rem nemo dolorum, excepturi eius tenetur inventore</h1>
+                    <div>
+                        <h1 class="font-bold pt-1 pb-3">Room</h1>
+                        <h1>E101</h1>
+                        <h1>A303</h1>
+                        <h1>E102</h1>
+                    </div>
+                    <div>
+                        <h1 class="font-bold pt-1 pb-3">Time</h1>
+                        <h1>13.00-15.30</h1>
+                        <h1>15.30-18.00</h1>
+                        <h1>09.30-12.20</h1>
                     </div>
                 </div>
             </div>
+            <div class="w-[30%] h-auto">
+                <h1 class="font-bold text-2xl mb-5 text-gray-900 dark:text-gray-200">Announcement</h1>
+                <div class="p-10 bg-white border border-gray-200 rounded-3xl shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-800">
+                    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod harum quos alias rem nemo dolorum, excepturi eius tenetur inventore</h1>
+                </div>
+            </div>
+          </div>
+
+          
+        
         </div>
-    </div>
+
+        
+
+      </div>
+
+
 </body>
 
 </html>
