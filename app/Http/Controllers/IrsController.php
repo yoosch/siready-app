@@ -16,7 +16,7 @@ class IrsController extends Controller
                     ->get();
 
                     
-        return view('irs',compact('data'));
+        return view('mhsIrs',compact('data'));
     }
 
     public function index(Request $request,$id)
