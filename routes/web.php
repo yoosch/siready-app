@@ -6,6 +6,9 @@ use App\Http\Controllers\IrsController;
 Route::get('m/dashboard', function () {
     return view('dashboardMhs');
 });
+Route::get('p/dashboard', function () {
+    return view('dashboardPA');
+});
 Route::get('m/registration', function () {
     return view('registrasiMhs');
 });
