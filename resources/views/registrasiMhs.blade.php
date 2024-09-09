@@ -15,7 +15,7 @@
     
      {{-- endnavbar --}}
    
-       <div class="flex pt-16 overflow-hidden">
+       <div class="flex pt-12 overflow-hidden">
    
          {{-- sidebar --}}
    
@@ -34,7 +34,7 @@
                 <div class="bg-white dark:bg-[#1F2937] p-6 mx-7 w-[85%] rounded-2xl h-full flex flex-col justify-between">
                     <div>
                         <div class="flex items-center">
-                            <img src="aktif.png" width="100" alt="">
+                            <img src="{{ asset('aktif.png') }}" width="100" alt="">
                             <h1 class="font-bold text-3xl text-center mb-5 pt-4">Aktif</h1>
                         </div>
                         <h1 class="text-[#9CA3AF] px-5">Anda akan mengikuti kegiatan perkuliahan pada semester ini serta mengisi Isian Rencana Studi (IRS).</h1>
@@ -44,7 +44,7 @@
                 <div class="bg-white dark:bg-[#1F2937] p-6 mx-7 w-[85%] rounded-2xl h-full flex flex-col justify-between">
                     <div>
                         <div class="flex items-center px-3">
-                            <img src="cuti.png" width="65" alt="">
+                            <img src="{{ asset('cuti.png') }}" width="65" alt="">
                             <h1 class="font-bold text-3xl text-center mb-5 pt-4 ml-4">Cuti</h1>
                         </div>
                         <h1 class="text-[#9CA3AF] px-5">Menghentikan kuliah sementara untuk semester ini tanpa kehilangan status sebagai mahasiswa Undip.</h1>

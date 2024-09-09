@@ -17,7 +17,7 @@
     
   {{-- endnavbar --}}
 
-    <div class="flex pt-16 overflow-hidden">
+    <div class="flex pt-12 overflow-hidden">
 
       {{-- sidebar --}}
 

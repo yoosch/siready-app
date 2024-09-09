@@ -3,25 +3,25 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IrsController;
 
-Route::get('/dashboard', function () {
+Route::get('m/dashboard', function () {
     return view('dashboardMhs');
 });
-Route::get('registration', function () {
+Route::get('m/registration', function () {
     return view('registrasiMhs');
 });
-Route::get('transcript', function () {
+Route::get('m/transcript', function () {
     return view('transkripMhs');
 });
-Route::get('login', function () {
+Route::get('m/login', function () {
     return view('login');
 });
-Route::get('khs', function () {
+Route::get('m/khs', function () {
     return view('khs');
 });
-Route::get('isi-irs', function () {
+Route::get('m/buat-irs', function () {
     return view('isiIrs');
 });
-Route::get('/irs',[IrsController::class,'all']);
-Route::get('/irs/{id}',[IrsController::class,'index']);
+Route::get('m/irs',[IrsController::class,'all']);
+Route::get('m/irs/{id}',[IrsController::class,'index']);
 
 
