@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 
-<body class="bg-gray-200 dark:bg-[#111827]">
+<body class="bg-gray-200 dark:bg-[#09192E]">
     <x-navbar>
 
     </x-navbar>
@@ -28,7 +28,7 @@
   
         <div id="main-content" class="relative text-gray-900 dark:text-gray-200 font-poppins w-full h-full overflow-y-auto lg:pl-52">
             <div class="px-8 py-8">
-                <div class="bg-white border border-gray-200 h-[35vh] rounded-3xl shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-800">
+                <div class="  2xl:col-span-2 dark:border-gray-700 sm:p-6">
                     <div class="flex justify-around gap-16 px-16">
                         <div>            
                             <button id="dropdownButton1" data-dropdown-toggle="dropdownMenu1" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">

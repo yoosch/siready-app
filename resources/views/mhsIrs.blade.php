@@ -10,7 +10,7 @@
     <title>Login</title>
 </head>
 
-<body class = "bg-gray-50 dark:bg-gray-900"> 
+<body class = "bg-gray-50 dark:bg-[#09192E]"> 
 
 
   {{-- navbar --}}
@@ -27,7 +27,7 @@
         </x-side-bar-mhs>
       {{-- end sidebar --}}
 
-      <div id="main-content" class="relative w-full h-full font-poppins overflow-y-auto lg:mt-4 bg-gray-50 lg:ml-52 dark:bg-gray-900">
+      <div id="main-content" class="relative w-full h-full font-poppins overflow-y-auto lg:mt-4 bg-gray-50 lg:ml-52 dark:bg-[#162B44]">
         <h1 class="mx-14 my-8 text-3xl font-semibold text-gray-900 dark:text-gray-200">Isian Rencana Studi (IRS)</h1>
         <div class="mt-2 mx-14 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-800">
             @foreach ($data as $item)

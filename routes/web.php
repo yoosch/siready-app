@@ -27,6 +27,18 @@ Route::get('p/dashboard', function () {
 Route::get('p/perwalian', function () {
     return view('paPerwalian');
 });
+Route::get('p/ajuan-irs', function () {
+    return view('paAjuanIrs');
+});
+Route::get('k/dashboard', function () {
+    return view('kpDashboard');
+});
+Route::get('k/buat-jadwal', function () {
+    return view('kpBuatJadwal');
+});
+Route::get('k/rombel', function () {
+    return view('kpRombel');
+});
 Route::get('m/irs',[IrsController::class,'all']);
 Route::get('m/irs/{id}',[IrsController::class,'index']);
 

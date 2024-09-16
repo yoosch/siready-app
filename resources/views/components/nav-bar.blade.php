@@ -1,4 +1,4 @@
-<nav class="fixed z-30 w-full  font-poppins bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+<nav class="fixed z-30 w-full  font-poppins bg-white border-b border-gray-200 dark:bg-[#162B44] dark:border-gray-700">
     <div class="px-3 py-3 lg:px-5 lg:pl-3">
       <div class="flex items-center h-7 justify-between">
         <div class="flex items-center justify-start">
@@ -34,10 +34,10 @@
               <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow dark:bg-gray-700 dark:divide-gray-600" id="dropdown-2">
                 <div class="px-4 py-3" role="none">
                   <p class="text-sm text-gray-900 dark:text-white" role="none">
-                    Neil Sims
+                    Mulyono
                   </p>
                   <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-300" role="none">
-                    neil.sims@flowbite.com
+                    mulyono@students.undip.ac.id
                   </p>
                 </div>
                 <ul class="py-1" role="none">

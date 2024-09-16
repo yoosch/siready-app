@@ -10,7 +10,7 @@
     <title>Login</title>
 </head>
 
-<body class = "bg-gray-50 dark:bg-gray-900"> 
+<body class = "bg-gray-50 dark:bg-[#09192E]"> 
 
 
   {{-- navbar --}}

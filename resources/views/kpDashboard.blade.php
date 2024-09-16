@@ -20,9 +20,9 @@
 
         {{-- sidebar --}}
   
-          <x-side-bar-pa>
-              
-          </x-side-bar-pa>
+          <x-side-bar-kp>
+            
+          </x-side-bar-kp>
         {{-- end sidebar --}}
   
   
@@ -31,16 +31,16 @@
                 <div class="bg-white border border-gray-200 h-[80vh] rounded-3xl shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-[#162B44]">
                     <div class="grid grid-cols-3 gap-16 px-16 py-5">
                         <div class="bg-[#38A6D6] p-6 rounded-2xl text-right">
-                            <h1 class="text-2xl font-bold">30</h1>
-                            <h1>Pengajuan IRS</h1>
+                            <h1 class="text-2xl font-bold">632</h1>
+                            <h1>Total Mahasiswa</h1>
                         </div>
                         <div class="bg-[#2ACD7F] p-6 rounded-2xl text-right">
-                            <h1 class="text-2xl font-bold">15</h1>
-                            <h1>IRS Disetujui</h1>
+                            <h1 class="text-2xl font-bold">610</h1>
+                            <h1>Mahasiswa Aktif</h1>
                         </div>
                         <div class="bg-[#C34444] p-6 rounded-2xl text-right">
-                            <h1 class="text-2xl font-bold">2</h1>
-                            <h1>IRS Ditolak</h1>
+                            <h1 class="text-2xl font-bold">22</h1>
+                            <h1>Mahasiswa Cuti</h1>
                         </div>
                     </div>
                     <div class="grid grid-cols-6 text-center mt-16 pr-[5%] py-5 text-gray-500 dark:text-[#9CA3AF]   ">
@@ -53,31 +53,31 @@
                         </div>
                         <div class="space-y-4">
                             <h1 class="pb-2 text-white font-semibold">Angkatan</h1>
-                            <h1>2022</h1>
                             <h1>2024</h1>
-                            <h1>2020</h1>
+                            <h1>2023</h1>
+                            <h1>2022</h1>
                             <h1>2021</h1>
                         </div>
                         <div class="space-y-4">
-                            <h1 class="pb-2 text-white font-semibold">Strata</h1>
-                            <h1>S1</h1>
-                            <h1>S1</h1>
-                            <h1>S1</h1>
-                            <h1>S2</h1>
+                            <h1 class="pb-2 text-white font-semibold">Jumlah Mahasiswa</h1>
+                            <h1>215</h1>
+                            <h1>198</h1>
+                            <h1>165</h1>
+                            <h1>40</h1>
                         </div>
                         <div class="space-y-4">
-                            <h1 class="pb-2 text-white font-semibold">Prodi</h1>
-                            <h1>Informatika</h1>
-                            <h1>Informatika</h1>
-                            <h1>Informatika</h1>
-                            <h1>Sistem Informasi</h>
+                            <h1 class="pb-2 text-white font-semibold">Aktif</h1>
+                            <h1>215</h1>
+                            <h1>195</h1>
+                            <h1>150</h1>
+                            <h1>36</h>
                         </div>
                         <div class="space-y-4">
-                            <h1 class="pb-2 text-white font-semibold">Kelas</h1>
-                            <h1>A</h1>
-                            <h1>C</h1>
-                            <h1>A</h1>
-                            <h1>D</h1>
+                            <h1 class="pb-2 text-white font-semibold">Cuti</h1>
+                            <h1>0</h1>
+                            <h1>3</h1>
+                            <h1>15</h1>
+                            <h1>4</h1>
                         </div>
                         <div class="space-y-4">
                             <h1 class="pb-2 text-white font-semibold">Rata-rata IPK</h1>

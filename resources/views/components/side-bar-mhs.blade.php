@@ -1,7 +1,7 @@
-<aside id="sidebar" class="fixed w-52 top-0 left-0 z-20 font-poppins flex flex-col flex-shrink-0 hidden h-full pt-12 font-normal duration-75 lg:flex transition-width" aria-label="Sidebar">
-    <div class="relative flex flex-col flex-1 min-h-0 pt-0 bg-white border-r border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+<aside id="sidebar" class="fixed w-52 top-0 left-0 z-20 font-poppins flex flex-col flex-shrink-0 sm:hidden h-full pt-12 font-normal duration-75 lg:flex transition-width" aria-label="Sidebar">
+    <div class="relative flex flex-col flex-1 min-h-0 pt-0 bg-white border-r border-gray-200 dark:bg-[#162B44] dark:border-gray-700">
       <div class="flex flex-col flex-1 pt-5 pb-4 overflow-y-auto">
-        <div class="flex-1 px-3 space-y-1 bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700">
+        <div class="flex-1 px-3 space-y-1divide-y divide-gray-200 dark:divide-gray-700">
           <ul class="pb-2 space-y-2">
             <li>
               <form action="#" method="GET" class="lg:hidden">
