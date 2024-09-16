@@ -10,7 +10,7 @@
     <title>Login</title>
 </head>
 
-<body class = "bg-gray-50 dark:bg-[#09192E]"> 
+<body class = "bg-gray-50 dark:bg-blek-900"> 
 
 
   {{-- navbar --}}
@@ -27,11 +27,11 @@
         </x-side-bar-mhs>
       {{-- end sidebar --}}
 
-      <div id="main-content" class="relative w-full h-full font-poppins overflow-y-auto lg:mt-4 bg-gray-50 lg:ml-52 dark:bg-[#162B44]">
+      <div id="main-content" class="relative w-full h-full font-poppins overflow-y-auto lg:mt-4 bg-gray-50 lg:ml-52 dark:bg-blek-900">
         <h1 class="mx-14 my-8 text-3xl font-semibold text-gray-900 dark:text-gray-200">Isian Rencana Studi (IRS)</h1>
-        <div class="mt-2 mx-14 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-800">
+        <div class="mt-2 mx-14 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-blek-800">
             @foreach ($data as $item)
-            <div class="p-10 my-3 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-700">
+            <div class="p-10 my-3 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-blek-500">
                 <div class="flex items-center justify-between">
                     <div class="p-1">
                         <h3 class="text-lg font-medium text-gray-900 dark:text-gray-200">Semester {{ $item->semester }}</h3>
@@ -69,13 +69,13 @@ $(document).ready(function() {
 
             // AJAX request to fetch data
             $.ajax({
-                url: `/irs/${semester}`, // Replace with your server endpoint
+                url: `/m/irs/${semester}`, // Replace with your server endpoint
                 method: 'GET',
                 data: { semester: semester },
                 success: function(response) {
                     let table = `
                     <div class="additional-info dark:text-white">
-                        <table class="min-w-full mt-4 bg-white border dark:bg-gray-700 dark:text:white">
+                        <table class="min-w-full mt-4 bg-white border dark:bg-blek-500 dark:text:white">
                             <thead>
                                 <tr>
                                     <th class="border py-2 w-[10%]">Kode</th>

@@ -10,7 +10,7 @@
     <title>Login</title>
 </head>
 
-<body class = "bg-gray-50 dark:bg-[#09192E]"> 
+<body class = "bg-gray-50 dark:bg-blek-900"> 
 
 
   {{-- navbar --}}
@@ -31,8 +31,8 @@
       <div id="main-content" class="relative w-full h-full font-poppins overflow-y-auto lg:mt-4 lg:ml-52 ">
 
         <h1 class="mx-14 my-8 text-3xl font-semibold text-gray-900 dark:text-gray-200">Kartu Hasil Studi (KHS)</h1>
-        <div class = "mt-2 mx-14 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-[#162B44]">
-            <div class="p-10 my-3 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-700 flex items-center justify-between" id = ''>
+        <div class = "mt-2 mx-14 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-blek-800">
+            <div class="p-10 my-3 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-blek-500 flex items-center justify-between" id = ''>
               <div>
                   <h3 class="text-lg font-medium text-gray-900 dark:text-gray-200">Semester 1</h3>
                   <h4 class="font-light text-sm text-gray-900 dark:text-gray-200">2021/2022</h4>
@@ -41,7 +41,7 @@
                   <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
               </svg>
             </div>
-            <div class="p-10 my-3 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-700 flex items-center justify-between" id = ''>
+            <div class="p-10 my-3 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-blek-500 flex items-center justify-between" id = ''>
               <div>
                   <h3 class="text-lg font-medium text-gray-900 dark:text-gray-200">Semester 2</h3>
                   <h4 class="font-light text-sm text-gray-900 dark:text-gray-200">2021/2022</h4>
@@ -50,7 +50,7 @@
                   <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
               </svg>
             </div>
-            <div class="p-10 my-3 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-700 flex items-center justify-between" id = ''>
+            <div class="p-10 my-3 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-blek-500 flex items-center justify-between" id = ''>
               <div>
                   <h3 class="text-lg font-medium text-gray-900 dark:text-gray-200">Semester 3</h3>
                   <h4 class="font-light text-sm text-gray-900 dark:text-gray-200">2022/2023</h4>
@@ -59,7 +59,7 @@
                   <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
               </svg>
             </div>
-            <div class="p-10 my-3 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-700 flex items-center justify-between" id = ''>
+            <div class="p-10 my-3 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-blek-500 flex items-center justify-between" id = ''>
               <div>
                   <h3 class="text-lg font-medium text-gray-900 dark:text-gray-200">Semester 4</h3>
                   <h4 class="font-light text-sm text-gray-900 dark:text-gray-200">2022/2023</h4>
