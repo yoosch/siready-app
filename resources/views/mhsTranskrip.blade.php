@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 
-<body class = "bg-gray-200 dark:bg-[#09192E]"> 
+<body class = "bg-gray-200 dark:bg-blek-900"> 
 
 
     {{-- navbar --}}
@@ -32,7 +32,7 @@
   
         <div id="main-content" class="relative w-full h-full font-poppins mx-16 text-gray-900 dark:text-gray-200 overflow-y-auto lg:pl-52">
             <h1 class="font-semibold text-2xl pb-7 mt-8 text-center">Transkrip Akademik</h1>
-            <div class="grid grid-cols-5 p-7 h-[57vh] font-semibold text-sm bg-white dark:bg-[#162B44] rounded-3xl text-center text-[#9CA3AF]">
+            <div class="grid grid-cols-5 p-7 h-[57vh] font-semibold text-sm bg-white dark:bg-blek-700 rounded-3xl text-center text-[#9CA3AF]">
                 <div class="space-y-4">
                     <h1 class="text-gray-900 dark:text-white pb-2">No</h1>
                     <h1>1</h1>

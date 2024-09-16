@@ -10,7 +10,7 @@
     <title>Login</title>
 </head>
 
-<body class = "bg-gray-50 dark:bg-[#09192E]"> 
+<body class = "bg-gray-50 dark:bg-blek-900"> 
 
 
   {{-- navbar --}}
@@ -28,13 +28,13 @@
       {{-- end sidebar --}}
 
 
-      <div id="main-content" class="relative w-full h-full font-poppins overflow-y-auto lg:mt-4 bg-gray-50 lg:ml-52 dark:bg-gray-900">
+      <div id="main-content" class="relative w-full h-full font-poppins overflow-y-auto lg:mt-4 bg-gray-50 lg:ml-52 dark:bg-blek-900">
         
         <div class="flex justify-between mx-14 my-8">
           <h1 class=" text-3xl font-semibold text-gray-900 dark:text-gray-200">Buat IRS</h1>
-          <input type="text" placeholder="Search" class="bg-white dark:bg-gray-700 rounded-lg">
+          <input type="text" placeholder="Search" class="bg-white dark:bg-blek-700 rounded-lg">
         </div>
-        <div class="mt-2 mx-14 bg-white border border-gray-200 font-semibold text-[#374250] dark:text-white rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-800">
+        <div class="mt-2 mx-14 bg-white border border-gray-200 font-semibold text-[#374250] dark:text-white rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-blek-700">
           <h1 class="mb-4">Pilihan Mata Kuliah Semester 5</h1>
           <div>
               <h2 class="mt-4">Aljabar Linear - PAIK6204 (3 SKS)</h2>

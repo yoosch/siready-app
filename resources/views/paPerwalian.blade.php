@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 
-<body class="bg-gray-200 dark:bg-[#09192E]">
+<body class="bg-gray-200 dark:bg-blek-900">
     <x-navbar>
 
     </x-navbar>
@@ -121,7 +121,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white border border-gray-200 h-[45vh] mt-10 rounded-3xl shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-800">
+                <div class="bg-white border border-gray-200 h-[45vh] mt-10 rounded-3xl shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-blek-700">
                     <div class="grid grid-cols-5 text-center pr-[5%] py-5 text-gray-500 dark:text-[#9CA3AF]   ">
                         <div class="space-y-4">
                             <h1 class="pb-2 text-white font-semibold">No</h1>

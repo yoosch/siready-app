@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 
-<body class="bg-gray-200 dark:bg-[#09192E]">
+<body class="bg-gray-200 dark:bg-blek-900">
     <x-navbar>
 
     </x-navbar>

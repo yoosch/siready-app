@@ -9,7 +9,7 @@
     rel="stylesheet">
     <title>Document</title>
 </head>
-<body class = "bg-gray-100 dark:bg-[#09192E]">
+<body class = "bg-gray-100 dark:bg-blek-900">
      {{-- navbar --}}
      <x-navbar></x-navbar>
     
@@ -30,7 +30,7 @@
             <h1 class="font-semibold text-4xl mt-10 mb-4">Pilih Status Akademik</h1>
             <h1 class="text-[#9CA3AF]">Silahkan pilih status akademik untuk semester ini</h1>
             <div class="grid grid-cols-2 mt-16 mx-7 h-[60vh]">
-                <div class="bg-white dark:bg-[#162B44] p-6 mx-7 w-[85%] rounded-2xl h-full flex flex-col justify-between">
+                <div class="bg-white p-6 mx-7 w-[85%] rounded-2xl h-full flex flex-col justify-between dark:bg-blek-700">
                     <div>
                         <div class="flex items-center">
                             <img src="{{ asset('aktif.png') }}" width="100" alt="">
@@ -40,7 +40,7 @@
                     </div>
                     <h1 class="bg-[#ecaa54] dark:bg-[#F87430] duration-300 dark:hover:bg-white dark:hover:text-[#F87430] text-white text-center px-6 py-3 font-bold rounded-2xl">Pilih</h1>
                 </div>
-                <div class="bg-white dark:bg-[#162B44] p-6 mx-7 w-[85%] rounded-2xl h-full flex flex-col justify-between">
+                <div class="bg-white dark:bg-blek-700 dark:border-gray-700 p-6 mx-7 w-[85%] rounded-2xl h-full flex flex-col justify-between">
                     <div>
                         <div class="flex items-center px-3">
                             <img src="{{ asset('cuti.png') }}" width="65" alt="">

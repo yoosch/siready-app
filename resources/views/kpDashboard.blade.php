@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 
-<body class="bg-gray-200 dark:bg-[#09192E]">
+<body class="bg-gray-200 dark:bg-blek-900">
     <x-navbar>
 
     </x-navbar>
@@ -28,7 +28,7 @@
   
         <div id="main-content" class="relative text-gray-900 dark:text-gray-200 font-poppins w-full h-full overflow-y-auto lg:pl-52">
             <div class="px-8 py-8">
-                <div class="bg-white border border-gray-200 h-[80vh] rounded-3xl shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-[#162B44]">
+                <div class="bg-white border border-gray-200 h-[80vh] rounded-3xl shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-blek-700">
                     <div class="grid grid-cols-3 gap-16 px-16 py-5">
                         <div class="bg-[#38A6D6] p-6 rounded-2xl text-right">
                             <h1 class="text-2xl font-bold">632</h1>

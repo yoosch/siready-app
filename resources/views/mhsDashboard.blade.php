@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 
-<body class = "bg-gray-200 dark:bg-[#09192E]">
+<body class = "bg-gray-200 dark:bg-blek-900">
     {{-- navbar --}}
     <x-navbar></x-navbar>
     
@@ -33,7 +33,7 @@
           <h1 class="font-bold text-3xl mb-0 px-14 mt-6">Hai Mulyono👋</h1>
         
           <div class="px-14 pt-3 pb-2">
-            <div class="p-10 bg-white border border-gray-200 rounded-3xl shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-[#162B44]">
+            <div class="p-10 bg-white border border-gray-200 rounded-3xl shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-[#1D2125]">
               
                 <div class="grid grid-cols-3 pt-4 py-8">
                     <div class="bg-[#2ACD7F] p-6 rounded-2xl text-right mx-9">
@@ -72,7 +72,7 @@
           <div class="flex mt-5 space-x-6 px-14 pb-7 text-gray-500 dark:text-[#9CA3AF]">
             <div class="w-[70%]  ">
                 <h1 class="font-bold text-2xl mb-5 text-gray-900 dark:text-gray-200">Today's Schedule</h1>
-                <div class="grid grid-cols-3 bg-white border border-gray-200 h-[85%] rounded-3xl shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-[#162B44] p-4 text-center ">
+                <div class="grid grid-cols-3 bg-white border border-gray-200 h-[85%] rounded-3xl shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-[#1D2125] p-4 text-center ">
                     <div>
                         <h1 class="font-bold pt-1 pb-3">Subject</h1>
                         <h1>Pengembangan Berbasis</h1>
@@ -95,7 +95,7 @@
             </div>
             <div class="w-[30%] h-auto">
                 <h1 class="font-bold text-2xl mb-5 text-gray-900 dark:text-gray-200">Announcement</h1>
-                <div class="p-10 bg-white border border-gray-200 h-[85%] rounded-3xl shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-[#162B44]">
+                <div class="p-10 bg-white border border-gray-200 h-[85%] rounded-3xl shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-[#1D2125]">
                     <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod harum quos alias rem nemo dolorum, excepturi eius tenetur inventore</h1>
                 </div>
             </div>
