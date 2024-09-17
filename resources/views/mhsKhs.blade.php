@@ -1,16 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    @vite(['resources/css/app.css','resources/js/app.js', 'resources/js/darkmode.js'])
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Poppins:wght@200;400&display=swap"
-    rel="stylesheet">
-    <title>Login</title>
-</head>
+@extends('header')
 
-<body class = "bg-gray-50 dark:bg-blek-900"> 
+@section('title','KHS')
+
+@section('page')
 
 
   {{-- navbar --}}
@@ -135,5 +127,4 @@
   {{-- endarrowtabel --}}
 
 
-  </body>
-</html>
+@endsection
