@@ -39,6 +39,9 @@ Route::get('k/buat-jadwal', function () {
 Route::get('k/rombel', function () {
     return view('kpRombel');
 });
+Route::get('d/dashboard', function () {
+    return view('dkDashboard');
+});
 Route::get('m/irs',[IrsController::class,'all']);
 Route::get('m/irs/{id}',[IrsController::class,'index']);
 

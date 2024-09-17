@@ -38,7 +38,7 @@
                         </div>
                         <h1 class="text-[#9CA3AF] px-5">Anda akan mengikuti kegiatan perkuliahan pada semester ini serta mengisi Isian Rencana Studi (IRS).</h1>
                     </div>
-                    <h1 class="bg-[#ecaa54] dark:bg-[#F87430] duration-300 dark:hover:bg-white dark:hover:text-[#F87430] text-white text-center px-6 py-3 font-bold rounded-2xl">Pilih</h1>
+                    <a href=""><h1 class="bg-[#ecaa54] dark:bg-[#F87430] duration-300 dark:hover:bg-white dark:hover:text-[#F87430] text-white text-center px-6 py-3 font-bold rounded-2xl">Pilih</h1></a>
                 </div>
                 <div class="bg-white dark:bg-blek-700 dark:border-gray-700 p-6 mx-7 w-[85%] rounded-2xl h-full flex flex-col justify-between">
                     <div>
@@ -48,7 +48,7 @@
                         </div>
                         <h1 class="text-[#9CA3AF] px-5">Menghentikan kuliah sementara untuk semester ini tanpa kehilangan status sebagai mahasiswa Undip.</h1>
                     </div>
-                    <h1 class="bg-[#ecaa54] dark:bg-[#F87430] duration-300 dark:hover:bg-white dark:hover:text-[#F87430] text-white text-center px-6 py-3 font-bold rounded-2xl">Pilih</h1>
+                    <a href=""><h1 class="bg-[#ecaa54] dark:bg-[#F87430] duration-300 dark:hover:bg-white dark:hover:text-[#F87430] text-white text-center px-6 py-3 font-bold rounded-2xl">Pilih</h1></a>
                 </div>
             </div>
         </div>
