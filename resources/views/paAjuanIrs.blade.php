@@ -21,7 +21,11 @@
         <div id="main-content" class="relative text-gray-900 dark:text-gray-200 font-poppins w-full h-full overflow-y-auto lg:pl-52">
             <div class=" py-8">
                 <div class="2xl:col-span-2 sm:p-6 ">
+<<<<<<< HEAD
                     <div class="flex justify-between">
+=======
+                    <div class="flex justify-evenly gap-10">
+>>>>>>> nippot2
                         <div class="flex gap-10 ">
                             <div>            
                                 <button id="dropdownButton1" data-dropdown-toggle="dropdownMenu1" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
@@ -116,18 +120,28 @@
                         <div>
                             <div>
                                 <button id="selectAll" class="text-white bg-[#2ACD7F] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+<<<<<<< HEAD
                                     Setujui Semua <span class="ml-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-square" viewBox="0 0 16 16">
                                         <path d="M3 14.5A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5h8a.5.5 0 0 1 0 1H3a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8a.5.5 0 0 1 1 0v5a1.5 1.5 0 0 1-1.5 1.5z"/>
                                         <path d="m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0"/>
                                       </svg></span>
+=======
+                                    Setujui Semua 
+>>>>>>> nippot2
                                 </button> 
                             </div>
                         </div>
                     </div>
                 </div> 
+<<<<<<< HEAD
                 <table class="w-full text-center">
                     <thead class="bg-[#283445]">
                         <tr class="text-white">
+=======
+                <table class="w-full text-white text-center">
+                    <thead class="bg-[#283445]">
+                        <tr>
+>>>>>>> nippot2
                             <th class="w-[15%] py-6 px-7">No</th>
                             <th class="w-[25%] py-6 px-7">ID Ajuan</th>
                             <th class="w-[30%] py-6 px-7">Nama Mahasiswa</th>
@@ -139,6 +153,7 @@
                             <td class="py-4">1</td>
                             <td class="py-4">43E531</td>
                             <td class="py-4">Gibran Rakabuming</td>
+<<<<<<< HEAD
                             <td class="py-4 space-x-5">
                                 <button class="text-white px-4 py-2 bg-[#2F19D2] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs text-center dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
                                     Detail
@@ -148,6 +163,17 @@
                                 </button>
                                 <button class="text-white px-4 py-2 bg-[#C81E1E] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs text-center dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
                                     Tolak
+=======
+                            <td class="py-4">
+                                <button class="text-white px-4 py-2 bg-[#2ACD7F] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs text-center dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                                    Detail
+                                </button>
+                                <button class="text-white px-4 py-2 bg-[#2ACD7F] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs text-center dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                                    Detail
+                                </button>
+                                <button class="text-white px-4 py-2 bg-[#2ACD7F] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs text-center dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                                    Detail
+>>>>>>> nippot2
                                 </button>
                             </td>
                         </tr>
@@ -155,6 +181,7 @@
                             <td class="py-4">2</td>
                             <td class="py-4">56F74Y</td>
                             <td class="py-4">Erina Gudono</td>
+<<<<<<< HEAD
                             <td class="py-4 space-x-5">
                                 <button class="text-white px-4 py-2 bg-[#2F19D2] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs text-center dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
                                     Detail
@@ -165,12 +192,19 @@
                                 <button class="text-white px-4 py-2 bg-[#C81E1E] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs text-center dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
                                     Tolak
                                 </button>
+=======
+                            <td class="py-4">
+                                <button class="text-white px-4 py-2 bg-[#2ACD7F] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs text-center dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                                    Detail
+                                </button>
+>>>>>>> nippot2
                             </td>
                         </tr>
                         <tr>
                             <td class="py-4">3</td>
                             <td class="py-4">K457E9</td>
                             <td class="py-4">Jan Ethes</td>
+<<<<<<< HEAD
                             <td class="py-4 space-x-5">
                                 <button class="text-white px-4 py-2 bg-[#2F19D2] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs text-center dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
                                     Detail
@@ -181,12 +215,19 @@
                                 <button class="text-white px-4 py-2 bg-[#C81E1E] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs text-center dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
                                     Tolak
                                 </button>
+=======
+                            <td class="py-4">
+                                <button class="text-white px-4 py-2 bg-[#2ACD7F] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs text-center dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                                    Detail
+                                </button>
+>>>>>>> nippot2
                             </td>
                         </tr>
                         <tr>
                             <td class="py-4">4</td>
                             <td class="py-4">3JDN3U</td>
                             <td class="py-4">Selvi Ananda</td>
+<<<<<<< HEAD
                             <td class="py-4 space-x-5">
                                 <button class="text-white px-4 py-2 bg-[#2F19D2] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs text-center dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
                                     Detail
@@ -197,6 +238,12 @@
                                 <button class="text-white px-4 py-2 bg-[#C81E1E] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs text-center dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
                                     Tolak
                                 </button>
+=======
+                            <td class="py-4">
+                                <button class="text-white px-4 py-2 bg-[#2ACD7F] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs text-center dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                                    Detail
+                                </button>
+>>>>>>> nippot2
                             </td>
                         </tr>
                     </tbody>

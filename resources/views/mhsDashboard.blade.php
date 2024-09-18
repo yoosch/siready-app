@@ -21,7 +21,11 @@
       <div id="main-content" class="relative font-poppins w-full h-full overflow-y-auto lg:pl-52">
 
         <div class = "text-gray-900 dark:text-gray-200">
+<<<<<<< HEAD
           <h1 class="font-bold text-3xl mb-0 px-14 mt-6">Hai Mulyono👋</h1>
+=======
+          <h1 class="font-bold text-3xl mb-0 px-14 mt-6">Hai {{ $userName }}👋</h1>
+>>>>>>> nippot2
         
           <div class="px-14 pt-3 pb-2">
             <div class="p-10 bg-white border border-gray-200 rounded-3xl shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-[#1D2125]">
